@@ -3,6 +3,7 @@ package readyset
 
 import "fmt"
 
+// Set is a container for arbitrary data which ensures that duplicates elements will not be stored multiple times.
 type Set map[interface{}]struct{}
 
 // NewSet creates a new Set containing the given elements.
