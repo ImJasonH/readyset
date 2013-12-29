@@ -108,5 +108,3 @@ func TestAddRemove(t *testing.T) {
 		t.Errorf("expected %v.Len() == 3", s)
 	}
 }
-
-// TestAddRemove
