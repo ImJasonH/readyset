@@ -1,4 +1,6 @@
 // Package readyset provides a simple set implementation.
+//
+// Elements in the set must be hashable (e.g., no slices)
 package readyset
 
 import "fmt"

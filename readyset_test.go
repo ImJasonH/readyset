@@ -68,7 +68,7 @@ func TestUnion(t *testing.T) {
 	}, {
 		NewSet(false, true, "foo"),
 		NewSet(true, "boo", struct{}{}),
-		[]interface{}{true},
+		[]interface{}{false, true, "foo", "boo", struct{}{}},
 	}}
 	for _, c := range cs {
 		u := Union(c.a, c.b)
@@ -76,6 +76,9 @@ func TestUnion(t *testing.T) {
 			if !u.Contains(e) {
 				t.Errorf("expected %v in %v", e, u)
 			}
+		}
+		if u.Len() != len(c.e) {
+			t.Errorf("unexpected len, got %d, want %d", u.Len(), len(c.e))
 		}
 	}
 }
