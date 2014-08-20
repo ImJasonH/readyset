@@ -1,1 +1,4 @@
-[![GoDoc](https://godoc.org/gist.github.com/7791518.git?status.png)](https://godoc.org/gist.github.com/7791518.git)
+readyset
+========
+
+[![GoDoc](https://godoc.org/github.com/ImJasonH/readyset?status.png)](https://godoc.org/github.com/ImJasonH/readyset)
