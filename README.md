@@ -1,6 +1,3 @@
-readyset
-========
-
 `readyset` provides a simple library for dealing with unordered sets of data in Go.
 
 [![GoDoc](https://godoc.org/github.com/ImJasonH/readyset?status.png)](https://godoc.org/github.com/ImJasonH/readyset)
